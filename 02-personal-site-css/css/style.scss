@@ -1,0 +1,132 @@
+:root {
+    --primary-color: #66BFBF;
+    --primary-color-dark: #11999E;
+    --text-light: #EAF6F6;
+    --text-dark: #40514E;
+}
+
+body {
+    color: var(--text-dark);
+    margin: 0;
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
+}
+
+h1 {
+    color: var(--primary-color);
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Dawning of a New Day', cursive;
+}
+
+h2 {
+    color: var(--primary-color);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: var(--primary-color-dark);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted var(--text-light) 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 5em auto;
+    clear: both;
+}
+
+a{
+    color: var(--primary-color-dark);
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 5em 3em;
+    text-decoration: none;
+
+    &:hover {
+        color: var(--text-light);
+    }
+}
+
+header {
+    background-color: var(--text-light);
+    position: relative;
+    padding-top: 100px;
+
+    .title-text {
+        .pro {
+            text-decoration: underline;
+        }
+    }
+    .top-cloud {
+        position: absolute;
+        right: 300px;
+        top: 40px;
+    }
+    .btm-cloud {
+        position: absolute;
+        left: 250px;
+        bottom: 300px;
+    }
+}
+
+main {
+    margin: 100px 0;
+    .intro {
+        width: 30%;
+        margin: auto;
+    }
+    .skill-row {
+        width: 50%;
+        margin: 100px auto; 
+        text-align: left;
+        &:nth-child(even)>img {
+            width: 25%;
+            height: 25%;
+            float: left;
+            margin-right: 30px;
+        }
+        &:nth-child(odd)>img {
+            width: 25%;
+            float: right;
+            margin-left: 30px;
+        }
+    }
+
+        
+    .contact-message {
+        width: 40%;
+        margin: 40px auto 60px;
+    }
+
+    .btn{
+        background: #11cdd4;
+        background-image: linear-gradient(top, #11cdd4, var(--primary-color-dark));
+        border-radius: 8px;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: white;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+
+        &:hover{
+            background: #30e3cb;
+            background-image: linear-gradient(top, #30e3cb, #2bc4ad);
+            text-decoration: none;
+        }
+    }
+}
+
+footer {
+    background-color:  var(--primary-color);
+    color: var(--text-light);
+    padding: 3em 1em;
+    line-height: 2;
+}
