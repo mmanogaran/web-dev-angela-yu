@@ -7,7 +7,7 @@ Start Date: December 2020
 ## Checklist
 
 - [x] [Personal Website - HTML](#personal-website---html)
-- [ ] Personal Website - CSS
+- [x] [Personal Website - CSS](#personal-website---css)
 - [ ] TinDog
 - [ ] Dicee Game
 - [ ] Drum Kit
@@ -32,7 +32,7 @@ Start Date: December 2020
 
 ## Completed Projects
 
-### Personal Website - HTML
+### [Personal Website - HTML](https://mmanogaran.github.io/web-dev-angela-yu/01-personal-site-html/index.html)
 
 ![Screenshot of HTML Personal Site](images/01-personal-site-html-screenshot.png)
 
@@ -40,3 +40,9 @@ A basic personal website filled with some dummy data made using only HTML. Unfor
 
 #### Modifications
 - Included use of semantic HTML
+
+### [Personal Website - CSS](https://mmanogaran.github.io/web-dev-angela-yu/02-personal-site-css/index.html)
+
+![Screenshot of CSS Personal Site](images/02-personal-site-css-screenshot.png)
+
+A basic personal website filled with some dummy data made using only HTML and CSS. The current version was basically made by following the course. I'll be experimenting with some modifications to make it more responsive.
