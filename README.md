@@ -34,15 +34,22 @@ Start Date: December 2020
 
 ### [Personal Website - HTML](https://mmanogaran.github.io/web-dev-angela-yu/01-personal-site-html/index.html)
 
-![Screenshot of HTML Personal Site](images/01-personal-site-html-screenshot.png)
+
+<img src="images/01-personal-site-html-screenshot.png" alt="Screenshot of HTML Personal Site" width="50%"/>
 
 A basic personal website filled with some dummy data made using only HTML. Unfortunately, this meant needing to use tables to format everything for now.
 
 #### Modifications
 - Included use of semantic HTML
+- Reformated "Work Experience" section
+- Replaced "Books and Teaching" and "Skills" sections with "Projects" and "Papers" section
 
 ### [Personal Website - CSS](https://mmanogaran.github.io/web-dev-angela-yu/02-personal-site-css/index.html)
 
-![Screenshot of CSS Personal Site](images/02-personal-site-css-screenshot.png)
+<img src="images/02-personal-site-css-screenshot.png" alt="Screenshot of CSS Personal Site" width="50%"/>
 
-A basic personal website filled with some dummy data made using only HTML and CSS. The current version was basically made by following the course. I'll be experimenting with some modifications to make it more responsive.
+A basic personal website filled with some dummy data made using only HTML and CSS.
+
+#### Modifications
+- Converted to SASS for better organization
+- Made site mobile-first responsive
