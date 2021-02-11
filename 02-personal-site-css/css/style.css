@@ -8,28 +8,30 @@
 body {
   color: var(--text-dark);
   margin: 0;
-  text-align: center;
   font-family: 'Zilla Slab', serif;
 }
 
 h1 {
   color: var(--primary-color);
-  font-size: 5.625rem;
-  margin: 50px auto 0 auto;
   font-family: 'Dawning of a New Day', cursive;
+  font-size: 5.625em;
+  font-weight: bold;
 }
 
 h2 {
   color: var(--primary-color);
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 2.5rem;
-  font-weight: normal;
-  padding-bottom: 10px;
+  font-size: 2.5em;
+  margin: 3rem 0;
+  text-align: center;
 }
 
 h3 {
   color: var(--primary-color-dark);
   font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: .6em 0;
 }
 
 p {
@@ -39,99 +41,130 @@ p {
 hr {
   border: dotted var(--text-light) 6px;
   border-bottom: none;
-  width: 4%;
-  margin: 5em auto;
-  clear: both;
+  width: 10%;
+  margin: 3em auto;
 }
 
-a {
-  color: var(--primary-color-dark);
-  font-family: 'Roboto Condensed', sans-serif;
-  margin: 5em 3em;
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--text-light);
+.container {
+  padding: 3em;
 }
 
 header {
   background-color: var(--text-light);
   position: relative;
-  padding-top: 100px;
+  text-align: center;
+  padding-top: 8em;
 }
 
-header .title-text .pro {
+header .container {
+  padding: 0;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 4em;
+  left: 7%;
+}
+
+.title-text .pro {
   text-decoration: underline;
 }
 
-header .top-cloud {
+.title-text h2 {
+  margin-top: 1.5rem;
+}
+
+.btm-cloud {
   position: absolute;
-  right: 300px;
-  top: 40px;
+  top: 19em;
+  right: 5%;
 }
 
-header .btm-cloud {
-  position: absolute;
-  left: 250px;
-  bottom: 300px;
+.mountain {
+  width: 100%;
 }
 
-main {
-  margin: 100px 0;
+section.profile {
+  text-align: center;
 }
 
-main .intro {
-  width: 30%;
-  margin: auto;
+section.profile img {
+  width: clamp(100px, 40%, 170px);
 }
 
-main .skill-row {
-  width: 50%;
-  margin: 100px auto;
-  text-align: left;
+article.skill-row {
+  margin: 3em 0;
+  overflow: hidden;
 }
 
-main .skill-row:nth-child(even) > img {
-  width: 25%;
-  height: 25%;
+article.skill-row img {
+  width: clamp(100px, 25%, 200px);
+}
+
+article.skill-row:nth-child(even) > img {
   float: left;
-  margin-right: 30px;
+  margin-right: 1.5em;
 }
 
-main .skill-row:nth-child(odd) > img {
-  width: 25%;
+article.skill-row:nth-child(odd) > img {
   float: right;
-  margin-left: 30px;
+  margin-left: 1.5em;
 }
 
-main .contact-message {
-  width: 40%;
-  margin: 40px auto 60px;
+section.contact-me {
+  text-align: center;
 }
 
-main .btn {
-  background: #11cdd4;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#11cdd4), to(var(--primary-color-dark)));
-  background-image: linear-gradient(top, #11cdd4, var(--primary-color-dark));
-  border-radius: 8px;
-  font-family: 'Roboto Condensed', sans-serif;
+section.contact-me .btn {
+  display: table;
+  background: var(--primary-color-dark);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--primary-color-dark)), to(var(--primary-color)));
+  background-image: linear-gradient(top, var(--primary-color-dark), var(--primary-color));
+  border: 2px solid var(--primary-color-dark);
+  border-radius: .5em;
   color: white;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.2em;
+  padding: .5em .8em;
+  margin: 1em auto;
 }
 
-main .btn:hover {
-  background: #30e3cb;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#30e3cb), to(#2bc4ad));
-  background-image: linear-gradient(top, #30e3cb, #2bc4ad);
-  text-decoration: none;
+section.contact-me .btn:hover {
+  background: white;
+  color: var(--primary-color-dark);
+  font-weight: bold;
 }
 
 footer {
   background-color: var(--primary-color);
   color: var(--text-light);
-  padding: 3em 1em;
   line-height: 2;
+  text-align: center;
+}
+
+.footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10%;
+}
+
+.footer-links-item {
+  color: var(--primary-color-dark);
+  font-family: 'Roboto Condensed', sans-serif;
+  display: inline-block;
+}
+
+.footer-links-item:hover {
+  color: var(--text-light);
+}
+
+@media only screen and (min-width: 800px) {
+  .container {
+    width: 800px;
+    margin: auto;
+  }
 }
