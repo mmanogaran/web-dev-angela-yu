@@ -31,11 +31,9 @@ Start Date: December 2020
 
 
 ## Completed Projects
-
 ### [Personal Website - HTML](https://mmanogaran.github.io/web-dev-angela-yu/01-personal-site-html/index.html)
 
-
-<img src="images/01-personal-site-html-screenshot.png" alt="Screenshot of HTML Personal Site" width="50%"/>
+<img align="right" src="images/01-personal-site-html-screenshot.png" alt="Screenshot of HTML Personal Site" width="50%"/>
 
 A basic personal website filled with some dummy data made using only HTML. Unfortunately, this meant needing to use tables to format everything for now.
 
@@ -44,12 +42,17 @@ A basic personal website filled with some dummy data made using only HTML. Unfor
 - Reformated "Work Experience" section
 - Replaced "Books and Teaching" and "Skills" sections with "Projects" and "Papers" section
 
+<br clear="right"/>
+
 ### [Personal Website - CSS](https://mmanogaran.github.io/web-dev-angela-yu/02-personal-site-css/index.html)
 
-<img src="images/02-personal-site-css-screenshot.png" alt="Screenshot of CSS Personal Site" width="50%"/>
+<img align="right" src="images/02-personal-site-css-screenshot.png" alt="Screenshot of CSS Personal Site" width="50%" />
 
 A basic personal website filled with some dummy data made using only HTML and CSS.
 
 #### Modifications
 - Converted to SASS for better organization
 - Made site mobile-first responsive
+- Added a "Work Experience" section that uses CSS Grid for its two column desktop layout
+
+<br clear="right"/>
