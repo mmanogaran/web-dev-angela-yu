@@ -2,6 +2,7 @@
     --primary-color: #66BFBF;
     --primary-color-dark: #11999E;
     --text-light: #EAF6F6;
+    --text-med-dark: hsl(169, 12%, 60%);
     --text-dark: #40514E;
 }
 
@@ -34,19 +35,33 @@ h3 {
     margin: .6em 0;
 }
 
-p {
-    line-height: 2;
+h4 {
+    color: var(--primary-color-dark);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1em;
+    margin: 0.3em 0;
 }
 
-hr {
-    border: dotted var(--text-light) 6px;
-    border-bottom: none;
-    width: 10%;
-    margin: 3em auto;
+p {
+    line-height: 1.7;
 }
 
 .container {
     padding: 3em;
+}
+
+.hr {
+    &-main {
+        border: none;
+        border-bottom: 6px dotted var(--text-light);
+        width: 10%;
+        margin: 3em auto;
+    }
+
+    &-sub {
+        border: none;
+        border-bottom: 6px double var(--text-light);
+    }
 }
 
 // header
@@ -98,11 +113,51 @@ section.profile {
     }
 }
 
+.work-exp {
+
+    &-table {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    &-dates {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 0.8em;
+        color: var(--text-med-dark);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    h3, h4, &-dates {
+        margin: 0.1em 0;
+    }
+
+    p {
+        margin: 1em 0;
+    }
+
+    &-location {
+        font-size: 0.8em;
+        font-weight: bold;
+        text-decoration: underline;
+        line-height: 1.15;
+
+        &::before {
+            content: url("../images/internet-access.svg");
+            display: inline-block;
+            vertical-align: middle;
+            height: 1.15rem;
+            width: 1.15rem;
+        }
+    }
+}
+
 article.skill-row {
     margin: 3em 0;
     overflow: hidden;
     img {
-        width: clamp(100px, 25%, 200px);
+        width: clamp(100px, 25%, 150px);
     }
 
     &:nth-child(even)>img {
@@ -163,9 +218,29 @@ footer {
     }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
     .container {
-        width: 800px;
+        width: 1000px;
         margin: auto;
     }
+
+    .work-exp-row {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        column-gap: 1em;
+
+        h3, h4 {
+            align-self: center;
+        }
+
+        .work-exp-dates, p {
+            margin-top: 0;
+            line-height: 1.7rem;
+        }
+
+        .work-exp-location {
+            grid-column: 2;
+        }
+    }
+
 }
