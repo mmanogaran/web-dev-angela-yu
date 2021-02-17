@@ -31,6 +31,7 @@ Start Date: December 2020
 
 
 ## Completed Projects
+
 ### [Personal Website - HTML](https://mmanogaran.github.io/web-dev-angela-yu/01-personal-site-html/index.html)
 
 <img align="right" src="images/01-personal-site-html-screenshot.png" alt="Screenshot of HTML Personal Site" width="50%"/>
