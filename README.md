@@ -55,5 +55,6 @@ A basic personal website filled with some dummy data made using only HTML and CS
 - Converted to SASS for better organization
 - Made site mobile-first responsive
 - Added a "Work Experience" section that uses CSS Grid for its two column desktop layout
+- Added a "Projects" section that uses CSS Flexbox for its two column desktop layout
 
 <br clear="right"/>
