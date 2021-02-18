@@ -239,6 +239,29 @@ footer {
     }
 }
 
+@media only screen and (min-width: 700px) {
+    .project {
+
+        &-item {
+            display: flex;
+            gap: 2em
+        }
+
+        &-left {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5em;
+        }
+        
+        &-right {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5em;
+            margin: 0.6em 0;
+        }
+    }
+}
+
 @media only screen and (min-width: 1000px) {
     .container {
         width: 1000px;
