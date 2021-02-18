@@ -2,7 +2,7 @@
     --primary-color: #66BFBF;
     --primary-color-dark: #11999E;
     --text-light: #EAF6F6;
-    --text-med-dark: hsl(169, 12%, 60%);
+    --text-med-dark: #8da5a1;
     --text-dark: #40514E;
 }
 
@@ -15,14 +15,14 @@ body {
 h1 {
     color: var(--primary-color);
     font-family: 'Dawning of a New Day', cursive;
-    font-size: 5.625em;
+    font-size: clamp(4rem, 20vw, 5.645rem);
     font-weight: bold;
 }
 
 h2 {
     color: var(--primary-color);
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 2.5em;
+    font-size: clamp(2rem, 10vw, 2.5rem);
     margin: 3rem 0;
     text-align: center;
 }
@@ -46,8 +46,20 @@ p {
     line-height: 1.7;
 }
 
+ul li {
+    text-indent: -1.1em;
+    padding-left: 1.1em;
+    line-height: 1.7;
+
+    &::before {
+        content: "✽ ";
+        color: var(--primary-color);
+        width: 1.1em;
+    }
+}
+
 .container {
-    padding: 3em;
+    padding: 1em;
 }
 
 .hr {
@@ -61,6 +73,7 @@ p {
     &-sub {
         border: none;
         border-bottom: 6px double var(--text-light);
+        margin: 2em auto;
     }
 }
 
@@ -113,13 +126,21 @@ section.profile {
     }
 }
 
-.work-exp {
+.project {
 
-    &-table {
-        display: flex;
-        flex-direction: column;
-        gap: 2em;
+    &-img {
+        display: block;
+        width: 70%;
+        margin: 0 auto 1em;
+        box-shadow: 1px 1px 2px 2px var(--text-light);
     }
+
+    &-right {
+        display: none;
+    }
+}
+
+.work-exp {
 
     &-dates {
         font-family: 'Roboto Condensed', sans-serif;
@@ -214,6 +235,29 @@ footer {
 
         &:hover {
             color: var(--text-light);
+        }
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .project {
+
+        &-item {
+            display: flex;
+            gap: 2em
+        }
+
+        &-left {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5em;
+        }
+        
+        &-right {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5em;
+            margin: 0.6em 0;
         }
     }
 }
