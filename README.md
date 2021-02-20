@@ -8,7 +8,7 @@ Start Date: December 2020
 
 - [x] [Personal Website - HTML](#personal-website---html)
 - [x] [Personal Website - CSS](#personal-website---css)
-- [ ] TinDog
+- [x] [TinDog](#tindog)
 - [ ] Dicee Game
 - [ ] Drum Kit
 - [ ] The Simon Game
@@ -32,9 +32,9 @@ Start Date: December 2020
 
 ## Completed Projects
 
-### [Personal Website - HTML](https://mmanogaran.github.io/web-dev-angela-yu/01-personal-site-html/index.html)
-
 <img align="right" src="images/01-personal-site-html-screenshot.png" alt="Screenshot of HTML Personal Site" width="50%"/>
+
+### [Personal Website - HTML](https://mmanogaran.github.io/web-dev-angela-yu/01-personal-site-html/index.html)
 
 A basic personal website filled with some dummy data made using only HTML. Unfortunately, this meant needing to use tables to format everything for now.
 
@@ -43,11 +43,11 @@ A basic personal website filled with some dummy data made using only HTML. Unfor
 - Reformated "Work Experience" section
 - Replaced "Books and Teaching" and "Skills" sections with "Projects" and "Papers" section
 
-<br clear="right"/>
-
-### [Personal Website - CSS](https://mmanogaran.github.io/web-dev-angela-yu/02-personal-site-css/index.html)
+<br clear="right"/><br>
 
 <img align="right" src="images/02-personal-site-css-screenshot.png" alt="Screenshot of CSS Personal Site" width="50%" />
+
+### [Personal Website - CSS](https://mmanogaran.github.io/web-dev-angela-yu/02-personal-site-css/index.html)
 
 A basic personal website filled with some dummy data made using only HTML and CSS.
 
@@ -57,4 +57,12 @@ A basic personal website filled with some dummy data made using only HTML and CS
 - Added a "Work Experience" section that uses CSS Grid for its two column desktop layout
 - Added a "Projects" section that uses CSS Flexbox for its two column desktop layout
 
-<br clear="right"/>
+<br clear="right"/><br>
+
+<img align="right" src="images/03-tindog-screenshot.png" alt="Screenshot of TinDog" width="50%" />
+
+### [TinDog](https://mmanogaran.github.io/web-dev-angela-yu/03-tindog/index.html)
+
+A basic website made using Bootstrap v4.
+
+<br clear="right"/><br>
