@@ -9,7 +9,7 @@ Start Date: December 2020
 - [x] [Personal Website - HTML](#personal-website---html)
 - [x] [Personal Website - CSS](#personal-website---css)
 - [x] [TinDog](#tindog)
-- [ ] Dicee Game
+- [x] [Dicee Game](#dicee-game)
 - [ ] Drum Kit
 - [ ] The Simon Game
 - [ ] Calculator
@@ -64,5 +64,13 @@ A basic personal website filled with some dummy data made using only HTML and CS
 ### [TinDog](https://mmanogaran.github.io/web-dev-angela-yu/03-tindog/index.html)
 
 A basic website made using Bootstrap v4.
+
+<br clear="right"/><br>
+
+<img align="right" src="images/04-dicee-game-screenshot.png" alt="Screenshot of Dicee Game" width="50%" />
+
+### [Dicee Game](https://mmanogaran.github.io/web-dev-angela-yu/04-dicee-game/index.html)
+
+A website that uses JS to roll 2 die whenever the user refreshes and displays which is higher or whether it's a draw.
 
 <br clear="right"/><br>
