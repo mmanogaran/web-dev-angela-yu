@@ -1,37 +1,87 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Dicee</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+
+  <link rel="stylesheet" href="css/destyle.css">
+  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+  <title>Dicee</title>
 
 </head>
 
 <body>
 
-  <div class="container">
-    <h1>Refresh Me</h1>
-
-    <div class="dice">
-      <p>Player 1</p>
-      <img class="img1" alt="Player 1 Dice" src="images/dice6.png">
+  <header>
+    <div class="container">
+      <h1>Best 2 Of 3</h1>
     </div>
+  </header>
 
-    <div class="dice">
-      <p>Player 2</p>
-      <img class="img2" alt="Player 2 Dice" src="images/dice6.png">
+  <main>
+    <div class="container">
+      <div class="center-dice dice">
+        <div class="die">
+          <h2>Player 1</h2>
+          <img class="img1" alt="Player 1 Dice" src="images/dice6.png">
+        </div>
+
+        <div class="die">
+          <h2>Player 2</h2>
+          <img class="img2" alt="Player 2 Dice" src="images/dice6.png">
+        </div>
+      </div>
+
+      <div class="rounds">
+        <div class="round">
+          <p>Round 1</p>
+          <div class="dice">
+            <div class="die">
+              <img class="img1" alt="Round 1 Player 1 Dice" src="images/dice6.png">
+            </div>
+            <div class="die">
+              <img class="img2" alt="Round 1 Player 2 Dice" src="images/dice6.png">
+            </div>
+          </div>
+        </div>
+        <div class="round">
+          <p>Round 2</p>
+          <div class="dice">
+            <div class="die">
+              <img class="img1" alt="Round 2 Player 1 Dice" src="images/dice6.png">
+            </div>
+            <div class="die">
+              <img class="img2" alt="Round 2 Player 2 Dice" src="images/dice6.png">
+            </div>
+          </div>
+        </div>
+        <div class="round">
+          <p>Round 3</p>
+          <div class="dice">
+            <div class="die">
+              <img class="img1" alt="Round 3 Player 1 Dice" src="images/dice6.png">
+            </div>
+            <div class="die">
+              <img class="img2" alt="Round 3 Player 2 Dice" src="images/dice6.png">
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
+  </main>
 
-  </div>
-
+  <footer>
+    <div class="container">
+      www 🎲 App Brewery 🎲 com
+    </div>
+  </footer>
 
   <script src="index.js"></script>
 </body>
 
-<footer>
-  www 🎲 App Brewery 🎲 com
-</footer>
 
 </html>
