@@ -71,6 +71,12 @@ A basic website made using Bootstrap v4.
 
 ### [Dicee Game](https://mmanogaran.github.io/web-dev-angela-yu/04-dicee-game/index.html)
 
-A website that uses JS to roll 2 die whenever the user refreshes and displays which is higher or whether it's a draw.
+A website that uses JS to roll 2 dice and display who got the higher number
+
+#### Modifications
+- Made it responsive
+- Added a "best two out of three" feature
+  - Uses `setInterval` to roll dice every 3 seconds until there has been 3 rounds without a draw and then declares the winner
+  - Displays the dice values for each round underneath main dice
 
 <br clear="right"/><br>
