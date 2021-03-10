@@ -10,7 +10,7 @@ Start Date: December 2020
 - [x] [Personal Website - CSS](#personal-website---css)
 - [x] [TinDog](#tindog)
 - [x] [Dicee Game](#dicee-game)
-- [ ] Drum Kit
+- [x] [Drum Kit](#drum-kit)
 - [ ] The Simon Game
 - [ ] Calculator
 - [ ] BMI Calculator
@@ -78,5 +78,17 @@ A website that uses JS to roll 2 dice and display who got the higher number
 - Added a "best two out of three" feature
   - Uses `setInterval` to roll dice every 3 seconds until there has been 3 rounds without a draw and then declares the winner
   - Displays the dice values for each round underneath main dice
+
+<br clear="right"/><br>
+
+<img align="right" src="images/05-drum-kit-screenshot.png" alt="Screenshot of Drum Kit" width="50%" />
+
+### [Drum Kit](https://mmanogaran.github.io/web-dev-angela-yu/05-drum-kit/index.html)
+
+A website that uses JS to roll 2 dice and display who got the higher number
+
+#### Modifications
+- Used `forEach` instead of loop to add an `EventListener` to all drums
+- Used `mouseDown`, `mouseUp`, `keyDown`, and `keyUp` instead of `click`, `keyDown`, and `setTimeout` to play sounds and handle animations
 
 <br clear="right"/><br>
