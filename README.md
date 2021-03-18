@@ -11,7 +11,7 @@ Start Date: December 2020
 - [x] [TinDog](#tindog)
 - [x] [Dicee Game](#dicee-game)
 - [x] [Drum Kit](#drum-kit)
-- [ ] The Simon Game
+- [x] [The Simon Game](#simon-game)
 - [ ] Calculator
 - [ ] BMI Calculator
 - [ ] Bitcoin Ticker
@@ -71,7 +71,7 @@ A basic website made using Bootstrap v4.
 
 ### [Dicee Game](https://mmanogaran.github.io/web-dev-angela-yu/04-dicee-game/index.html)
 
-A website that uses JS to roll 2 dice and display who got the higher number
+A website that uses JS to roll 2 dice and display who got the higher number.
 
 #### Modifications
 - Made it responsive
@@ -85,10 +85,22 @@ A website that uses JS to roll 2 dice and display who got the higher number
 
 ### [Drum Kit](https://mmanogaran.github.io/web-dev-angela-yu/05-drum-kit/index.html)
 
-A website that uses JS to roll 2 dice and display who got the higher number
+A website where you can use your mouse or keyboard to emulate playing the drums.
 
 #### Modifications
 - Used `forEach` instead of loop to add an `EventListener` to all drums
 - Used `mouseDown`, `mouseUp`, `keyDown`, and `keyUp` instead of `click`, `keyDown`, and `setTimeout` to play sounds and handle animations
+
+<br clear="right"/><br>
+
+<img align="right" src="images/06-simon-game-screenshot.png" alt="Screenshot of Simon Game" width="50%" />
+
+### [Simon Game](https://mmanogaran.github.io/web-dev-angela-yu/06-simon-game/index.html)
+
+A web version of the Simon Game using jQuery.
+
+#### Modifications
+- Used an object instead of a function to handle sounds
+
 
 <br clear="right"/><br>
